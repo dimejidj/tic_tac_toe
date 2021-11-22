@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(172, 213, 246);
+}
+
+.choose-weapon {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-winner {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.xoro {
+  align-content: center;
+}
+
+.xoro button {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(3, 244, 244);
+  border-radius: 7px;
+  border: rgb(108, 7, 163) solid 2px;
+  cursor: pointer;
+}
+
+.xoro button:hover {
+  box-shadow: rgb(108, 7, 163);
+  background-color: rgba(7, 171, 171, 0.69);
+}
+
+.xobtn {
+  background-color: khaki;
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-color: rgb(108, 7, 163);
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.top-row,
+.mid-row,
+.bottom-row {
+  display: flex;
+}
+
+.rows {
+  display: flex;
+}
+
+.game-board {
+  background-color: rgb(108, 7, 163);
+  width: 120px;
+  height: 120px;
+  border: rgb(4, 254, 254) solid 2.5px;
+  font-size: 40px;
+  color: aqua;
+}
+
+.game-board:hover {
+  background-color: rgb(73, 3, 110);
+}
+
+.winner {
+  font-size: 30px;
+  color: rgb(108, 7, 163);
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
+
+.footer {
+  margin-top: 20px;
+  color: rgb(108, 7, 163);
+}
